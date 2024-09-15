@@ -1,0 +1,45 @@
+.contact-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    height: 100%;
+    align-items: center;
+}
+
+.contact-item {
+    aspect-ratio: 1/1;
+}
+
+.contact-icon {
+    fill: var(--text);
+    min-width: 30px;
+    max-width: 40px;
+
+    transition: all 300ms;
+}
+
+.contact-icon:hover {
+    fill: var(--accent);
+}
+
+@media (max-width: 900px) {
+    .contact-icon {
+        min-width: 25px;
+        max-width: 35px;
+    }
+
+    .contact-grid {
+        gap: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-icon {
+        min-width: 20px;
+        max-width: 25px;
+    }
+
+    .contact-grid {
+        gap: 1em;
+    }
+}

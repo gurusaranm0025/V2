@@ -1,0 +1,121 @@
+:root {
+    --width: calc(100vw - 34%);
+    --height: calc(100vh - 10%);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text: #140509;
+        --background: #dddddf;
+        --background2: #312d2f;
+        --primary: #7a2500;
+        --secondary: #b8baa6;
+        --accent: #d73c1d;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #FAEDF0;
+        --background: #1f1f21;
+        --bg2-border: rgba(255, 168, 131, 0.1);
+        --bg2-content: rgba(49, 45, 47, 0.06);
+        --background2: rgba(49, 45, 47, 0.02);
+        --bg2-grad: rgba(226, 71, 31, 0.1);
+        --primary: #FFA883;
+        --secondary: #585a46;
+        --accent: #E24727;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+    height: 100%;
+    width: var(--width);
+}
+
+.text {
+    color: var(--text);
+}
+
+body {
+    background-color: var(--background);
+    padding-left: 24%;
+    padding-right: 10%;
+    padding-top: 10%;
+    /* overflow-x: hidden; */
+}
+
+/* FONT FAMILES */
+
+.inter-light {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-medium {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inter-sb {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.amita-regular {
+    font-family: "Amita", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.amita-bold {
+    font-family: "Amita", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --width: calc(100vw - 20%);
+    }
+
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    :root {
+        --width: calc(100vw - 30%);
+    }
+
+    body {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}

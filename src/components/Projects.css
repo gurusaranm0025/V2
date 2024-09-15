@@ -1,0 +1,114 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.project-container {
+    min-height: 300px;
+    max-height: 475px;
+    max-width: 475px;
+    min-width: 300px;
+    border-radius: 10px;
+    background-color: var(--bg2-border);
+    position: relative;
+    cursor: pointer;
+}
+
+.projects-grid:hover>.project-container>.project-border {
+    opacity: 1;
+}
+
+.project-container:hover::before {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.project-container::before,
+.project-container>.project-border {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    border-radius: inherit;
+
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.project-container::before {
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), var(--bg2-grad), transparent 40%);
+    z-index: 3;
+}
+
+.project-container>.project-border {
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgb(255, 168, 131, 0.4), transparent 40%);
+    z-index: 1;
+}
+
+.project-container>.project-content {
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    background-color: var(--background);
+    border-radius: inherit;
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.text-container {
+    width: 100%;
+    padding: 1em;
+}
+
+.project-image {
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.project-name {
+    font-size: 1.2em;
+    line-height: 0.5;
+}
+
+.project-des {
+    max-width: calc(100% - 8%);
+    margin-bottom: 9%;
+}
+
+.github-btn {
+    font-size: 1em;
+    color: var(--accent);
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    cursor: pointer;
+}
+
+@media (max-width: 1170px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .project-container {
+        width: calc(var(--width) - 20%);
+    }
+}
+
+@media (max-width: 600px) {
+    .project-container {
+        min-width: 100%;
+    }
+}
