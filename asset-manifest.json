@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/gurusaranm0025/V2/static/css/main.fbe73ad5.css",
+    "main.js": "/gurusaranm0025/V2/static/js/main.6d69615f.js",
+    "static/media/postgres.svg": "/gurusaranm0025/V2/static/media/postgres.f618d764ca9bd9ad3bca5d376f17105f.svg",
+    "static/media/mongo.svg": "/gurusaranm0025/V2/static/media/mongo.c1c2fb689ad66cbfc26df10e59c63a29.svg",
+    "static/media/linux.svg": "/gurusaranm0025/V2/static/media/linux.fdbf5381612a5d084b66d9683bb2aae6.svg",
+    "static/media/postman.svg": "/gurusaranm0025/V2/static/media/postman.3f935f4b9dc3fcf06f7bfe15ab700481.svg",
+    "static/media/reactjs.svg": "/gurusaranm0025/V2/static/media/reactjs.2c5b774a2e1773dab52589b5914fde9d.svg",
+    "static/media/go.svg": "/gurusaranm0025/V2/static/media/go.18f9e18cf2051f337b9560503174f617.svg",
+    "static/media/bash.svg": "/gurusaranm0025/V2/static/media/bash.0451353af2dd46228e2abf9293042234.svg",
+    "static/media/github.svg": "/gurusaranm0025/V2/static/media/github.c810c0ac1ee3b28f718fe1beb12bdca2.svg",
+    "static/media/nodejs.svg": "/gurusaranm0025/V2/static/media/nodejs.5a469a64459b6fd638aeb408b05dc2ab.svg",
+    "index.html": "/gurusaranm0025/V2/index.html",
+    "static/media/python.svg": "/gurusaranm0025/V2/static/media/python.154ab1701f17c92f400f5f8e1c0058a8.svg",
+    "static/media/js.svg": "/gurusaranm0025/V2/static/media/js.2635b1bb53cf874902e72b1278436b3e.svg",
+    "static/media/css.svg": "/gurusaranm0025/V2/static/media/css.dee75d3b702de268c3bfde553848dd5b.svg",
+    "static/media/tailwind.svg": "/gurusaranm0025/V2/static/media/tailwind.679f320cb42de1e540ccf73b0f940edd.svg",
+    "static/media/html.svg": "/gurusaranm0025/V2/static/media/html.e422b5064d86d55df7c0ab9b0ff74ce2.svg",
+    "static/media/mail.svg": "/gurusaranm0025/V2/static/media/mail.8e36928d9b48bb5ad84bc6cffbf69b40.svg",
+    "static/media/linkedin.svg": "/gurusaranm0025/V2/static/media/linkedin.425962edd78c91754e2fb452e4f192ac.svg",
+    "static/media/git.svg": "/gurusaranm0025/V2/static/media/git.f13bd03a19f1ee2416de3d016f8e992c.svg",
+    "static/media/nextjs.svg": "/gurusaranm0025/V2/static/media/nextjs.7f1f30a31638de405f55a090d5972dd9.svg",
+    "main.fbe73ad5.css.map": "/gurusaranm0025/V2/static/css/main.fbe73ad5.css.map",
+    "main.6d69615f.js.map": "/gurusaranm0025/V2/static/js/main.6d69615f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbe73ad5.css",
+    "static/js/main.6d69615f.js"
+  ]
+}
