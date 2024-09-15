@@ -17,7 +17,7 @@ function Home() {
 
                 <div className='hero-contact-container'>
                     <span className='get-in-touch'>
-                        Get in touch 👉🏻
+                        Get in touch 👉
                     </span>
                     <Conatct />
                     {/* <a className='inter-light mail-link' href="mailto://gurusaranm0025@gmail.com">gurusaranm0025@gmail.com</a> */}
