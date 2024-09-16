@@ -12,7 +12,7 @@ function Home() {
                 <p className='self-des'>
                     a polyglot programmer{" "}
                     {/* crafting elegant solutions across diverse platforms */}
-                    with a quick grasp of tasks across multiple languages
+                    with a quick grasp of tasks.
                 </p>
 
                 <div className='hero-contact-container'>
