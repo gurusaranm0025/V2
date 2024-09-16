@@ -18,7 +18,9 @@ const svgMap = {
     'tailwindcss': require('./tailwind.svg').ReactComponent,
     'html': require('./html.svg').ReactComponent,
     'linkedin': require('./linkedin.svg').ReactComponent,
-    'mail': require('./mail.svg').ReactComponent
+    'mail': require('./mail.svg').ReactComponent,
+    'sun': require('./sun.svg').ReactComponent,
+    'moon': require('./moon.svg').ReactComponent
 }
 
 function Icon({ icon, className }) {

@@ -1,0 +1,22 @@
+body {
+    position: relative;
+}
+
+.theme-toggle {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: var(--text);
+    transition: all 350ms;
+}
+
+.theme-toggle:hover {
+    color: var(--accent);
+}
+
+.theme-toggle-div {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
