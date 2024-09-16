@@ -5,12 +5,18 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --text: #140509;
-        --background: #dddddf;
-        --background2: #312d2f;
-        --primary: #7a2500;
-        --secondary: #b8baa6;
-        --accent: #d73c1d;
+        --text: #1f1f21;
+        --background: #FAEDF0;
+
+        --bg2-border: rgba(255, 168, 131, 0.6);
+        --bg2-content: rgba(200, 197, 199, 0.06);
+        --background2: rgba(200, 197, 199, 0.02);
+        --bg2-grad: rgba(255, 168, 134, 0.3);
+        --bg2-border-grad: rgb(255, 168, 131, 2);
+
+        --primary: #FFA883;
+        --secondary: #585a46;
+        --accent: #E24727;
     }
 }
 
@@ -22,6 +28,7 @@
         --bg2-content: rgba(49, 45, 47, 0.06);
         --background2: rgba(49, 45, 47, 0.02);
         --bg2-grad: rgba(226, 71, 31, 0.1);
+        --bg2-border-grad: rgba(255, 168, 131, 0.4);
         --primary: #FFA883;
         --secondary: #585a46;
         --accent: #E24727;
@@ -32,7 +39,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    color-scheme: dark;
+    /* color-scheme: dark; */
     height: 100%;
     width: var(--width);
 }
@@ -46,7 +53,6 @@ body {
     padding-left: 24%;
     padding-right: 10%;
     padding-top: 10%;
-    /* overflow-x: hidden; */
 }
 
 /* FONT FAMILES */

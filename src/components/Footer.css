@@ -9,6 +9,7 @@
     bottom: 30px;
     left: 50px;
     font-size: 1em;
+    color: var(--text);
 }
 
 .contact-footer-div {

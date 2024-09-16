@@ -12,7 +12,7 @@
 
 .contact-icon {
     fill: var(--text);
-    min-width: 30px;
+    min-width: 35px;
     max-width: 40px;
 
     transition: all 300ms;

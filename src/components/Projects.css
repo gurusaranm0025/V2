@@ -44,7 +44,7 @@
 }
 
 .project-container>.project-border {
-    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgb(255, 168, 131, 0.4), transparent 40%);
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), var(--bg2-border-grad), transparent 40%);
     z-index: 1;
 }
 
@@ -62,6 +62,7 @@
 .text-container {
     width: 100%;
     padding: 1em;
+    color: var(--text);
 }
 
 .project-image {
