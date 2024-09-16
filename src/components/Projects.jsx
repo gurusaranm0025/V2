@@ -6,6 +6,7 @@ const githubRepoIDs = [735333393, 754275829, 847770186, 726574699, 811503157, 68
 
 function Projects() {
     const [projectsArr, setProjects] = useState([])
+    const hasCursor = ('onmousemove' in window) && !('ontouchstart' in window)
 
     useEffect(() => {
         fetch("https://api.github.com/users/gurusaranm0025/repos")
@@ -42,7 +43,7 @@ function Projects() {
         <section>
             <p className='section-head inter-regular'>Projects</p>
 
-            <div className='projects-grid' id='projects' onMouseEnter={onHover} onMouseMove={onHover} onMouseOut={onHover}>
+            <div className='projects-grid' id='projects' onMouseMove={hasCursor ? onHover : null}>
                 {
                     projectsArr !== undefined ? (
                         projectsArr.map((project, i) => {

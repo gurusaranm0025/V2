@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1250px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
