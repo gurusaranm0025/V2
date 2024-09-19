@@ -6,7 +6,7 @@ body {
     background-color: transparent;
     border: none;
     border-radius: 50%;
-    font-size: 1.5em;
+    font-size: 2.3em;
     color: var(--text);
     transition: all 350ms;
 }
@@ -19,4 +19,16 @@ body {
     position: absolute;
     top: 2em;
     right: 2em;
+}
+
+@media (max-width: 900px) {
+    .theme-toggle {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .theme-toggle {
+        font-size: 1.7em;
+    }
 }
