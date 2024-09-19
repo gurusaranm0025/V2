@@ -2,7 +2,7 @@ export const contactData = [
     {
         name: "LinkedIn",
         icon: "linkedin",
-        link: "https://www.linkedin.com/in/guru-saran-m-2b6357251",
+        link: "https://www.linkedin.com/in/guru-saran-m",
     },
     {
         name: "Github",
@@ -12,6 +12,6 @@ export const contactData = [
     {
         name: "E-mail",
         icon: "mail",
-        link: "mailto://gurusaran0025@gmail.com",
+        link: "mailto://gurusaranm0025@gmail.com",
     },
 ]
