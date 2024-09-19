@@ -68,7 +68,7 @@ section {
 
 .mail-link {
     text-decoration: none;
-    color: var(--text);
+    /* color: var(--text); */
     display: inline-block;
     position: relative;
     transition: all 0.4s ease-out;

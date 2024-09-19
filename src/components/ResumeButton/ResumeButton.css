@@ -1,0 +1,36 @@
+#resume-ctn {
+    width: 100%;
+    margin: 3em 0 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-btn {
+    color: var(--text);
+    font-size: 1.2em;
+    cursor: pointer;
+    position: relative;
+    transition: all 350ms ease-out;
+}
+
+.resume-btn:hover {
+    color: var(--primary);
+}
+
+.resume-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-in-out;
+    background-color: var(--accent);
+}
+
+.resume-btn:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
