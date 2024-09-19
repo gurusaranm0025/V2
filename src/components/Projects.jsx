@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ProjectCard from './ProjectCard'
 import "./Projects.css"
 
-const githubRepoIDs = [735333393, 754275829, 847770186, 726574699, 811503157, 680883186, 752750352, 811874378]
+const githubRepoIDs = [735333393, 754275829, 847770186, 726574699, 811503157, 680883186, 752750352, 811874378, 857734139]
 
 function Projects() {
     const [projectsArr, setProjects] = useState([])
