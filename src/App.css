@@ -135,7 +135,7 @@ section {
     }
 
     .self-des {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .get-in-touch {
@@ -148,5 +148,11 @@ section {
 
     .intro-container {
         padding-top: 60%;
+    }
+}
+
+@media (max-width: 420px) {
+    .name-intro {
+        font-size: 1.8em;
     }
 }
