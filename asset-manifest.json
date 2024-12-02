@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2a635d0.css",
-    "main.js": "/static/js/main.eb552dc7.js",
+    "main.css": "/static/css/main.04763cef.css",
+    "main.js": "/static/js/main.a58832e8.js",
     "static/media/emoji.png": "/static/media/emoji.8d3ed420046bb56ce7d6.png",
     "static/media/postgres.svg": "/static/media/postgres.f618d764ca9bd9ad3bca5d376f17105f.svg",
     "static/media/mongo.svg": "/static/media/mongo.c1c2fb689ad66cbfc26df10e59c63a29.svg",
@@ -24,11 +24,11 @@
     "static/media/mail.svg": "/static/media/mail.1785908fb8218e85aa0c6f8e729d502a.svg",
     "static/media/git.svg": "/static/media/git.f13bd03a19f1ee2416de3d016f8e992c.svg",
     "static/media/nextjs.svg": "/static/media/nextjs.7f1f30a31638de405f55a090d5972dd9.svg",
-    "main.f2a635d0.css.map": "/static/css/main.f2a635d0.css.map",
-    "main.eb552dc7.js.map": "/static/js/main.eb552dc7.js.map"
+    "main.04763cef.css.map": "/static/css/main.04763cef.css.map",
+    "main.a58832e8.js.map": "/static/js/main.a58832e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2a635d0.css",
-    "static/js/main.eb552dc7.js"
+    "static/css/main.04763cef.css",
+    "static/js/main.a58832e8.js"
   ]
 }
