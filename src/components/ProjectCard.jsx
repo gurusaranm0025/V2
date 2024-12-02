@@ -22,7 +22,11 @@ function ProjectCard({ imgSrc, projectTitle, projectDes, gitHubLink, demoLink = 
                     <div className='proj-btns-container'>
                         <button className='github-btn inter-regular' onClick={openLink}>Github Repo</button>
                         {
-                            demoLink && <button className='demo-btn inter-regular' onClick={openDemo}>Demo Video</button>
+                            demoLink &&
+                            <>
+                                <span className='sep'>|</span>
+                                <button className='demo-btn inter-regular' onClick={openDemo}>Demo Video</button>
+                            </>
                         }
                     </div>
                 </div>

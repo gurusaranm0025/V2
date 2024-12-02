@@ -107,6 +107,10 @@
     color: white;
 }
 
+.sep {
+    color: var(--accent);
+}
+
 .demo-btn {
     font-size: 1em;
     color: var(--accent);
