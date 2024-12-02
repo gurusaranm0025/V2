@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectCard({ imgSrc, projectTitle, projectDes, gitHubLink }) {
+function ProjectCard({ imgSrc, projectTitle, projectDes, gitHubLink, demoLink = undefined }) {
 
 
 
@@ -8,8 +8,12 @@ function ProjectCard({ imgSrc, projectTitle, projectDes, gitHubLink }) {
         window.open(gitHubLink, "_blank", 'noreferrer')
     }
 
+    function openDemo() {
+        window.open(demoLink, "_blank", "noreferrer")
+    }
+
     return (
-        <div className='project-container' onClick={openLink}>
+        <div className='project-container'>
             <div className='project-content'>
                 <img className='project-image' src={imgSrc} alt=" " loading='lazy' />
                 <div className='text-container'>
@@ -17,6 +21,9 @@ function ProjectCard({ imgSrc, projectTitle, projectDes, gitHubLink }) {
                     <p className='project-des inter-regular'>{projectDes}</p>
                     <div className='proj-btns-container'>
                         <button className='github-btn inter-regular' onClick={openLink}>Github Repo</button>
+                        {
+                            demoLink && <button className='demo-btn inter-regular' onClick={openDemo}>Demo Video</button>
+                        }
                     </div>
                 </div>
             </div>

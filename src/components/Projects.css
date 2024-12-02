@@ -12,7 +12,6 @@
     border-radius: 10px;
     background-color: var(--bg2-border);
     position: relative;
-    cursor: pointer;
 }
 
 .projects-grid:hover>.project-container>.project-border {
@@ -80,15 +79,54 @@
     margin-bottom: 9%;
 }
 
+.proj-btns-container {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
 .github-btn {
     font-size: 1em;
     color: var(--accent);
     background: transparent;
     border: none;
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
+    /* position: absolute; */
+    /* bottom: 1em; */
+    /* left: 1em; */
     cursor: pointer;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.github-btn:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+.demo-btn {
+    font-size: 1em;
+    color: var(--accent);
+    background: transparent;
+    border: none;
+    /* position: absolute;
+    bottom: 1em;
+    left: 8em; */
+    cursor: pointer;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.demo-btn:hover {
+    background-color: var(--accent);
+    color: white;
 }
 
 @media (max-width: 1250px) {
