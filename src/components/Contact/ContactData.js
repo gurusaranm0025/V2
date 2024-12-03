@@ -2,7 +2,7 @@ export const contactData = [
     {
         name: "LinkedIn",
         icon: "linkedin",
-        link: "https://www.linkedin.com/in/guru-saran-m",
+        link: "https://www.linkedin.com/in/gurusaranm",
     },
     {
         name: "Github",
