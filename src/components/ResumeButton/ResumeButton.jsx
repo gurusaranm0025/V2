@@ -3,7 +3,7 @@ import "./ResumeButton.css"
 
 function ResumeButton() {
     function onResumeClick() {
-        window.open("https://drive.google.com/file/d/1QEgY6bUU-0PBCDBCpsKHnVmaLktri0DV/view?usp=sharing", "_blank", "noreferrer")
+        window.open("https://drive.google.com/file/d/1qhBUptIMFOb1lnfMyFsGXGh0w8SPgWyn/view?usp=sharing", "_blank", "noreferrer")
     }
     return (
         <div id='resume-ctn'>
